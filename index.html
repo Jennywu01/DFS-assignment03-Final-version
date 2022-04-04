@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>LIU XIAN</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+
+		<div class="header-logo">
+			<a href="index.html">LIU XIAN</a>
+		</div>
+
+		<a id="header-menu-trigger" href="#0">
+			<span class="header-menu-text">Menu</span>
+			<span class="header-menu-icon"></span>
+		</a>
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>
+
+			<h3>LIUXIAN.</h3>
+
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#gallery" title="">Gallery</a></li>
+			</ul>
+
+			<ul class="header-social-list">
+				<li>
+					<a href="#"><i class="cvtncn"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="guohuashanshui"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="namoc"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="art.icity"></i></a>
+				</li>
+				<li>
+			</ul>
+
+		</nav> <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->
+
+
+	<!-- home
+   ================================================== -->
+	<section id="home">
+
+		<div class="overlay"></div>
+		<div class="gradient-overlay"></div>
+
+		<div class="home-content-table">
+
+			<div class="home-content-tablecell">
+				<div class="row">
+					<div class="col-twelve">
+						<div class="home-bottom-text">
+
+							<h1 class="animate-intro" img>
+								LIU XIAN <br>
+								Printmaking & Woodcut artist <br>
+							</h1>
+
+							<ul class="home-section-links">
+								<li class="animate-intro">More <a href="#about" class="smoothscroll">About XIAN</a></li>
+								<li class="animate-intro">View <a href="#gallery" class="smoothscroll">Gallery</a>
+								</li>
+
+						</div> <!-- end home-bottom-text -->
+					</div> <!-- end col-twelve -->
+				</div> <!-- end row -->
+			</div> <!-- end home-content-tablecell -->
+		</div> <!-- end home-content-table -->
+
+		<a href="#about" class="scroll-icon smoothscroll">
+			<span class="icon-DownArrow"></span>
+		</a>
+
+	</section> <!-- end home -->
+
+
+	<!-- about
+   ================================================== -->
+	<section id="about">
+
+		<div class="about-profile-bg"></div>
+
+		<div class="about-wrap">
+
+			<div class="about-profile">
+
+				<div class="about-profile-bg"></div>
+				<img src="data:image/jpeg;base64,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"
+					alt="about-profile-bg">
+
+				<div class="intro">
+					<h3 class="animate-this">About</h3>
+					<h1 class="animate-this">More About XIAN</h1>
+
+					<p class="lead animate-this">Liu Xian
+						(1915-1990) was a pioneer of China's emerging printmaking movement. In
+						his creation, he always adhered to the teachings of Mr. Lu Xun, adhered to the path of realism,
+						and
+						paid attention to
+						the working people and social real problems. In 1934, he went to Japan to study under the
+						tutelage
+						of Yunichi Hiratsuka, a famous Japanese printmaker, specializing in black and white woodcuts.
+						His
+						works are characterized by bold composition, rigorous structure, graceful lines, strong black
+						and
+						white contrast, delicate and full of vitality, forming a unique printmaking style.</p>
+				</div>
+
+				<p class="animate-this">
+					His
+					works are characterized by bold composition, rigorous structure, graceful lines, strong black and
+					white contrast, delicate and full of vitality, forming a unique printmaking style
+				</p>
+
+				<p class="animate-this">Mr. Liu Xian, a famous printmaker , passed away in 1990. After the founding of
+					New China, Liu
+					Xian
+					served as the director of the research department of the National Art Museum of China, and made
+					important contributions to the museum's collection, research and foreign exchanges. This year
+					coincides with the 50th anniversary of the establishment of the National Art Museum of China.
+					The
+					National Art Museum of China specially held an exhibition of Liu Xian's prints to express the
+					respect and memory of the art museum's predecessors</p>
+
+				<p>
+					<a href="#" class="button full-width animate-this">Contact Me</a>
+					<a href="#" class="button button-primary full-width animate-this">Download CV</a>
+				</p>
+				<!-- about
+   ================================================== -->
+				<section id="Artworks Style">
+
+					<div class="overlay"></div>
+					<div class="gradient-overlay"></div>
+
+					<div class="row wide">
+						<div class="col-skills">
+
+							<div class="section-intro">
+								<h3 class="animate-this">Style</h3>
+								<h1 class="animate-this">More Details About XIAN's Work Style</h1>
+
+								<p class="animate-this">Xian had created a lot of black and white printmaking woodcuts.
+									And most of his works were inspired by the Japanese style. In this printmaking work
+									he illustrated an image of an old secretary during 1958 the year in between the
+									famine disaster in China and the old man who was in the countryside doing the
+									farming. He used graceful lines and vivid technique to describe the figure's
+									emotions with strong black white contrast, delicate and full of vitality, forming a
+									unique printing making style.</p>
+							</div>
+						</div> <!-- end col-six -->
+					</div> <!-- end row wide -->
+
+				</section> <!-- end skills -->
+
+				<div class="timeline-block animate-this">
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+					<div class="timeline-header">
+						<p class="timeframe">Liu Xian (1915-1990) </p>
+						<h3>Tokyo Imperial Academy of Fine Arts</h3>
+						<h4>Bachelor Degree</h4>
+					</div>
+					<div class="timeline-desc">
+						<p>He did his bachelor degree in Tokyo Imperial Academy of Fine Arts and most of his works was
+							influenced by the Japanese style.</p>
+					</div>
+				</div> <!-- end timeline-block -->
+
+			</div> <!-- end timeline-block -->
+
+		</div> <!-- end timeline-wrap -->
+
+		</div> <!-- end col-six -->
+
+		</div> <!-- end row wide -->
+
+	</section> <!-- end credentials -->
+
+
+	<!-- gallery
+   ================================================== -->
+	<section id="gallery">
+
+		<div class="row narrow section-intro with-bottom-sep">
+			<div class="col-twelve">
+				<h3 class="animate-this">Gallery</h3>
+				<h1 class="animate-this">See His Latest Projects.</h1>
+
+				<p class="lead animate-this">Black & White woodcuts style</p>
+			</div>
+		</div> <!-- end row section-intro -->
+
+		<div class="row gallery-content">
+			<div class="col-twelve">
+				<div id="folio-wrap" class="bricks-wrapper">
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this"
+							data-src="data:image/jpeg;base64,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"
+							data-sub-html="#LX_01">
+							<a href="#" class="overlay">
+								<img src="http://www.guohuashanshui.com/uploads/allimg/20170614/15htlzbyirpbf22.jpg"
+									alt="LX_02">
+								<div class="item-text">
+									<span class="folio-types">
+										Woodcuts,Printmaking
+									</span>
+									<h3 class="folio-title">Peony</h3>
+								</div>
+							</a>
+							<a href="http://www.cvtvcn.com/news/4ca18be76e448943bd8c" class='details-link'
+								title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="01" class='hide'>
+							<h4>LX_01</h4>
+							<p>Name: Peony
+
+
+								Year: 1959
+
+
+								Size: 28×20cm
+
+
+								Material: black and white woodcut <a
+									href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html">Details</a></p>
+						</div>
+					</div> <!-- end gallery-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg"
+							data-sub-html="#02">
+							<a href="#" class="overlay">
+								<img src="http://www.guohuashanshui.com/uploads/allimg/20170614/15yfhwtbjdqfl22.jpg"
+									alt="LX-03">
+								<div class="item-text">
+									<span class="folio-types">
+										Woodcuts, Printmaking
+									</span>
+									<h3 class="folio-title">Old Secretery</h3>
+								</div>
+							</a>
+							<a href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html" class='details-link'
+								title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="02" class='hide'>
+							<h4>Old Secretery</h4>
+							<p>Name: Old Secretary
+
+
+								Year: 1958
+
+
+								Size: 33×37cm
+
+
+								Material: black and white woodcut print. <a
+									href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html">Details</a></p>
+						</div>
+					</div> <!-- end gallery-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-explore.jpg"
+							data-sub-html="#03">
+							<a href="#" class="overlay">
+								<img src="https://img.cvtvcn.com/group1/default/20190919/10/19/1/u=376636500,3422491782&fm=26&gp=0.jpg"
+									alt="Cat">
+								<div class="item-text">
+									<span class="folio-types">
+										Woodcuts, printmaking
+									</span>
+									<h3 class="folio-title">Cat</h3>
+								</div>
+							</a>
+							<a href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html" class='details-link'
+								title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="03" class='hide'>
+							<h4>Cat</h4>
+							<p> Name: Cat
+
+
+								Year: 1954
+
+
+								Size: 29×20cm
+
+
+								Material: black and white woodcut <a
+									href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html">Details</a></p>
+						</div>
+					</div> <!-- end gallery-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this"
+							data-src="http://www.guohuashanshui.com/uploads/allimg/20170614/15epwwfijklah22.jpg"
+							data-sub-html="#04">
+							<a href="#" class="overlay">
+								<img src="http://www.guohuashanshui.com/uploads/allimg/20170614/15epwwfijklah22.jpg"
+									alt="War of Resistence">
+								<div class="item-text">
+									<span class="folio-types">
+										Woodcuts, Printmaking
+									</span>
+									<h3 class="folio-title">War of Resistence</h3>
+								</div>
+							</a>
+							<a href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html" class='details-link'
+								title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="04" class='hide'>
+							<h4>War of Resistence</h4>
+							<p> Name: War of Resistance
+
+
+								Year: 1938
+
+
+								Size: 15×15cm
+
+
+								Material: black and white woodcut print <a
+									href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html">Details</a></p>
+						</div>
+					</div> <!-- end gallery-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this"
+							data-src="http://www.guohuashanshui.com/uploads/allimg/20170614/151ykbgrr5fua22.jpg"
+							data-sub-html="#05">
+							<a href="#" class="overlay">
+								<img src="http://www.guohuashanshui.com/uploads/allimg/20170614/151ykbgrr5fua22.jpg"
+									alt="Flowers">
+								<div class="item-text">
+									<span class="folio-types">
+										Branding
+									</span>
+									<h3 class="folio-title">Flowers</h3>
+								</div>
+							</a>
+							<a href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html" class='details-link'
+								title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="05" class='hide'>
+							<h4>Flowers</h4>
+							<p>Name: Flowers
+
+
+								Year: 1932
+
+
+								Size: 32×38cm
+
+
+								Material: black and white woodcut print <a
+									href="http://www.guohuashanshui.com/a/11/2017/0615/8521.html">Details</a></p>
+						</div>
+					</div> <!-- end gallery-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this"
+							data-src="http://www.namoc.org/pictures/zlk/m/20170513hnbhzpz_m.jpg" data-sub-html="#06">
+							<a href="#" class="overlay">
+								<img src="http://www.namoc.org/pictures/zlk/m/20170513hnbhzpz_m.jpg" alt="Sailboad">
+								<div class="item-text">
+									<span class="folio-types">
+										Woodcuts, Printmaking
+									</span>
+									<h3 class="folio-title">Sailboad</h3>
+								</div>
+							</a>
+							<a href="http://www.namoc.org/zsjs/zlzx/201704/t20170426_307770.htm" class='details-link'
+								title="details">
+								<i class="icon-UpRightArrow"></i>
+							</a>
+						</div> <!-- end item-wrap -->
+
+						<div id="06" class='hide'>
+							<h4>Sailboad</h4>
+							<p>Name: Sailboad
+
+
+								Year: 1938
+
+
+								Size: 32×38cm
+
+
+								Material: black and white woodcut print <a
+									href="http://www.namoc.org/zsjs/zlzx/201704/t20170426_307770.htm">Details</a></p>
+						</div>
+					</div> <!-- end gallery-item -->
+
+				</div> <!-- end gallery-wrap -->
+			</div> <!-- end twelve -->
+		</div> <!-- end gallery-content -->
+
+	</section> <!-- end gallery -->
+
+	<!-- contact
+   ================================================== -->
+	<section id="Links">
+
+		<div class="overlay"></div>
+
+		<div class="row narrow section-intro">
+			<div class="col-twelve">
+				<h3 class="animate-this">Links</h3>
+				<h1 class="animate-this">You can feel free to go to these resources links to see more infomations</h1>
+
+				<p class="lead animate-this">You will also see more printmaking works from XIAN in these resources
+				</p>
+			</div>
+		</div> <!-- end section-intro -->
+
+		<div class="row contact-form">
+			<div class="col-twelve">
+
+				<!-- form -->
+				<form name="contactForm" id="contactForm" method="post">
+
+
+					<div class="form-field animate-this">
+						<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+							required="">
+					</div>
+					<div class="form-field animate-this">
+						<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+							required="">
+					</div>
+					<div class="form-field animate-this">
+						<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+					</div>
+					<div class="form-field animate-this">
+						<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
+							required=""></textarea>
+					</div>
+
+					<div class="form-field animate-this">
+						<button class="submitform">Submit</button>
+
+						<div id="submit-loader">
+							<div class="text-loader">Sending...</div>
+							<div class="s-loader">
+								<div class="bounce1"></div>
+								<div class="bounce2"></div>
+								<div class="bounce3"></div>
+							</div>
+						</div>
+					</div>
+
+
+				</form> <!-- Form End -->
+
+				<!-- contact-warning -->
+				<div id="message-warning"></div>
+
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- end col-twelve -->
+		</div> <!-- end row contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+				<h5 class="animate-this">Where to find XIAN's works</h5>
+
+				<p class="animate-this">
+					Hebei province Cutural Gallery China<br>
+					<br>
+
+				</p>
+			</div> <!-- end col-four -->
+
+			<div class="col-four tab-full collapse">
+				<h5 class="animate-this">Email Me At</h5>
+
+				<p class="animate-this">
+					graphicworksq.com<br>
+					jennywu0106@gmail.com
+				</p>
+			</div> <!-- end col-four -->
+
+			<div class="col-four tab-full">
+				<h5 class="animate-this">Call Me At</h5>
+
+				<p class="animate-this">
+					Mobile: (250 802 0999)<br>
+				</p>
+			</div> <!-- end col-four -->
+
+		</div> <!-- end row contact-info -->
+
+	</section> <!-- end contact -->
+
+	</div> <!-- end row -->
+
+	<div id="go-top">
+		<a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-UpArrow"></i></a>
+	</div>
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
